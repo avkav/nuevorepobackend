@@ -36,7 +36,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 
-@CrossOrigin(origins = "http://localhost:4200") 
+@CrossOrigin(origins = "*") 
 public class Controller {
     //Aquí tenemos que hacer nuevamente otra injección de dependencias, de la controladora con nuestro service
     //nuestra controladora estara conectada al servicio, el servicio estara conectado al repositorio, el repo estara conectado a la BD
